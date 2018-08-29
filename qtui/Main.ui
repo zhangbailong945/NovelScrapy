@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>771</width>
+    <width>772</width>
     <height>597</height>
    </rect>
   </property>
@@ -21,6 +21,12 @@
      <width>171</width>
      <height>551</height>
     </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>171</width>
+     <height>600</height>
+    </size>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
@@ -125,11 +131,17 @@
   <widget class="QFrame" name="rightContent">
    <property name="geometry">
     <rect>
-     <x>179</x>
+     <x>169</x>
      <y>-1</y>
-     <width>591</width>
+     <width>600</width>
      <height>551</height>
     </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>600</height>
+    </size>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -140,11 +152,17 @@
    <widget class="QStackedWidget" name="stackedContent">
     <property name="geometry">
      <rect>
-      <x>-10</x>
+      <x>9</x>
       <y>0</y>
-      <width>611</width>
+      <width>591</width>
       <height>551</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>610</width>
+      <height>610</height>
+     </size>
     </property>
     <widget class="QWidget" name="page"/>
     <widget class="QWidget" name="page_2"/>
