@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'F:\eric6Projects\NovelScrapy\qtui\Main.ui'
+# Form implementation generated from reading ui file 'F:\NovelScrapy\qtui\Main.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #
@@ -11,9 +11,10 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Main(object):
     def setupUi(self, Main):
         Main.setObjectName("Main")
-        Main.resize(771, 597)
+        Main.resize(772, 597)
         self.leftMenu = QtWidgets.QWidget(Main)
         self.leftMenu.setGeometry(QtCore.QRect(0, -1, 171, 551))
+        self.leftMenu.setMaximumSize(QtCore.QSize(171, 600))
         self.leftMenu.setAutoFillBackground(False)
         self.leftMenu.setObjectName("leftMenu")
         self.indexBtn = QtWidgets.QPushButton(self.leftMenu)
@@ -42,12 +43,14 @@ class Ui_Main(object):
         self.statusLabel.setGeometry(QtCore.QRect(30, 20, 54, 12))
         self.statusLabel.setObjectName("statusLabel")
         self.rightContent = QtWidgets.QFrame(Main)
-        self.rightContent.setGeometry(QtCore.QRect(179, -1, 591, 551))
+        self.rightContent.setGeometry(QtCore.QRect(169, -1, 600, 551))
+        self.rightContent.setMaximumSize(QtCore.QSize(600, 600))
         self.rightContent.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.rightContent.setFrameShadow(QtWidgets.QFrame.Raised)
         self.rightContent.setObjectName("rightContent")
         self.stackedContent = QtWidgets.QStackedWidget(self.rightContent)
-        self.stackedContent.setGeometry(QtCore.QRect(-10, 0, 611, 551))
+        self.stackedContent.setGeometry(QtCore.QRect(9, 0, 591, 551))
+        self.stackedContent.setMaximumSize(QtCore.QSize(610, 610))
         self.stackedContent.setObjectName("stackedContent")
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")

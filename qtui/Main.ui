@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>772</width>
-    <height>597</height>
+    <width>781</width>
+    <height>603</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -110,8 +110,8 @@
     <rect>
      <x>0</x>
      <y>550</y>
-     <width>771</width>
-     <height>51</height>
+     <width>781</width>
+     <height>50</height>
     </rect>
    </property>
    <widget class="QLabel" name="statusLabel">
@@ -152,10 +152,10 @@
    <widget class="QStackedWidget" name="stackedContent">
     <property name="geometry">
      <rect>
-      <x>9</x>
+      <x>10</x>
       <y>0</y>
-      <width>591</width>
-      <height>551</height>
+      <width>610</width>
+      <height>610</height>
      </rect>
     </property>
     <property name="maximumSize">
