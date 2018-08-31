@@ -15,8 +15,6 @@ class IndexWidget(QWidget,Ui_IndexWidget):
 
 if __name__=='__main__':
     app=QApplication(sys.argv)
-    app.setStyleSheet(readData('../Resources/Themes/Default.qss'))
-    QFontDatabase.addApplicationFont('../Resources/Fonts/Deafult.ttf')
     w=IndexWidget()
     w.show()
     sys.exit(app.exec_())

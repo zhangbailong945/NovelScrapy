@@ -1,4 +1,5 @@
 import sys
+import qdarkstyle
 
 from PyQt5.QtGui import QFontDatabase
 from PyQt5.QtWidgets import QApplication
@@ -8,8 +9,9 @@ from MyWidgets.Main import Main
 
 def main():
     app=QApplication(sys.argv)
-    app.setStyleSheet(readData('Resources/Themes/Default.qss'))
-    QFontDatabase.addApplicationFont('Resources/Font/Default.ttf')
+    dark_stylesheet = qdarkstyle.load_stylesheet_pyqt5()
+    #app.setStyleSheet(readData('Resources/Themes/Default.qss'))
+    app.setStyleSheet(dark_stylesheet)
     w=Main()
     w.show()
     sys.exit(app.exec_())
