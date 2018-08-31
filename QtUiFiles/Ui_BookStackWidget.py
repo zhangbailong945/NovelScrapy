@@ -260,7 +260,7 @@ class Ui_BookStackWidget(object):
         self.pushButton_2.setText(_translate("BookStackWidget", "下一页"))
         self.pushButton.setText(_translate("BookStackWidget", "尾页"))
 
-import images_rc
+#import images_rc
 
 if __name__ == "__main__":
     import sys

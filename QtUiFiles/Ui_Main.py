@@ -8,6 +8,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
+
 class Ui_Main(object):
     def setupUi(self, Main):
         Main.setObjectName("Main")
@@ -52,12 +54,6 @@ class Ui_Main(object):
         self.stackedContent.setGeometry(QtCore.QRect(9, 0, 591, 551))
         self.stackedContent.setMaximumSize(QtCore.QSize(610, 610))
         self.stackedContent.setObjectName("stackedContent")
-        self.page = QtWidgets.QWidget()
-        self.page.setObjectName("page")
-        self.stackedContent.addWidget(self.page)
-        self.page_2 = QtWidgets.QWidget()
-        self.page_2.setObjectName("page_2")
-        self.stackedContent.addWidget(self.page_2)
 
         self.retranslateUi(Main)
         QtCore.QMetaObject.connectSlotsByName(Main)

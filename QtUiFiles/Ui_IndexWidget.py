@@ -225,7 +225,7 @@ class Ui_IndexWidget(object):
         self.pushButton_3.setText(_translate("IndexWidget", "下一页"))
         self.pushButton_6.setText(_translate("IndexWidget", "尾页"))
 
-import images_rc
+#import images_qrc
 
 if __name__ == "__main__":
     import sys

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project NovelScrapy -->
-<!-- Saved: 2018-08-30, 21:34:40 -->
+<!-- Saved: 2018-08-31, 16:23:25 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language></Language>
@@ -14,28 +14,121 @@
   <Eol index="0"/>
   <Sources>
     <Source>__init__.py</Source>
-    <Source>qtui/BookDetailWidget.ui</Source>
-    <Source>qtui/BookStackWidget.ui</Source>
-    <Source>qtui/Ui_BookAboutWidget.py</Source>
-    <Source>qtui/Ui_BookDetailWidget.py</Source>
-    <Source>qtui/Ui_BookStackWidget.py</Source>
-    <Source>qtui/Ui_Main.py</Source>
-    <Source>qtui/Ui_bookCatalog.py</Source>
-    <Source>qtui/Ui_indexWidget.py</Source>
-    <Source>qtui/Ui_right.py</Source>
-    <Source>qtui/indexWidget.ui</Source>
   </Sources>
   <Forms>
-    <Form>qtui/BookAboutWidget.ui</Form>
-    <Form>qtui/BookDetailWidget.ui</Form>
-    <Form>qtui/BookStackWidget.ui</Form>
-    <Form>qtui/Main.ui</Form>
-    <Form>qtui/bookCatalog.ui</Form>
-    <Form>qtui/indexWidget.ui</Form>
-    <Form>qtui/right.ui</Form>
+    <Form>QtUiFiles/BookAboutWidget.ui</Form>
+    <Form>QtUiFiles/BookDetailWidget.ui</Form>
+    <Form>QtUiFiles/BookStackWidget.ui</Form>
+    <Form>QtUiFiles/Main.ui</Form>
+    <Form>QtUiFiles/bookCatalog.ui</Form>
+    <Form>QtUiFiles/indexWidget.ui</Form>
+    <Form>QtUiFiles/right.ui</Form>
   </Forms>
+  <Others>
+    <Other>.gitignore</Other>
+  </Others>
   <Vcs>
-    <VcsType>None</VcsType>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
