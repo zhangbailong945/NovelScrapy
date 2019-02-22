@@ -10,7 +10,7 @@ from MyWidgets.Main import Main
 def main():
     app=QApplication(sys.argv)
     dark_stylesheet = qdarkstyle.load_stylesheet_pyqt5()
-    #app.setStyleSheet(readData('Resources/Themes/Default.qss'))
+    app.setStyleSheet(readData('Resources/Themes/Default.qss'))
     app.setStyleSheet(dark_stylesheet)
     w=Main()
     w.show()
